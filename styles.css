@@ -1,0 +1,51 @@
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#111;
+}
+
+.menu{
+    text-align:center;
+}
+
+.menu input{
+    display:block;
+    margin:20px auto;
+    padding:10px;
+    font-size:18px;
+}
+
+.menu button{
+    padding:10px 25px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+#gameCanvas {
+    display:none; /* kezdetben elrejtve */
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#222;
+}
+
+.discordBtn {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+.discordBtn img {
+    width: 50px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.discordBtn img:hover {
+    transform: scale(1.2);
+}
